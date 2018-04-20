@@ -37,3 +37,9 @@
 	height:200px;
 	width:200px;
 }
+
+@media screen and (max-width: 575px){
+	.coverPic {
+    height:300px;
+}
+}
