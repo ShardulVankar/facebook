@@ -71,7 +71,7 @@ function getDataFunction(){
 		type:'get',
 		dataType:'json',
 		async:true,
-		url:'https://graph.facebook.com/me?fields=id,name,picture,email,address,cover,age_range,last_name,accounts,religion,hometown,quotes,albums{photos{picture}},permissions,gender&access_token=EAACEdEose0cBAMXwkTrX6UOnW6cMx37Hge77YdnMN8uyKAuSwoHJk0MMuZAVTVuPSRnbYjOxD0OqZBrKx10pwhpnMZCUXsl6JZCAB7PFgUm0AaZCaifZACyCHii5UxMn5aVHoprJmDIfLlaah7IYdbDTwSLZCIZBKKFeZCpaSBnKBZCmSuN5B6veK6FZABcpIeCcYAKOG51x99HHQZDZD',
+		url:'https://graph.facebook.com/me?fields=id,name,picture,email,address,cover,age_range,last_name,accounts,religion,hometown,quotes,albums{photos{picture}},permissions,gender&access_token=EAACEdEose0cBAG5mhtGviQ72pwzYfnFOaujFWb8vCB1W3vLGxCimVsilyEIhtM0cBk0zvakbrdhWQdR7neDH6LCTZCtYnlZCj19nitY1evFMKKS0qxNZCdSnZAvXXq4Xa8QodwR8zHfePxBnyKk2S1ypy95b0B4ZCEK3jIbmZBX4f6c87V6M1CEX5hZB3e5tzsfb8GGpaKvZBwZDZD',
 		success:(data1)=>{
 			let coverPic = `${data1.cover.source}`//semicolon must not be used.
 			$('.coverPic').html('<img src="' + coverPic + '" style="height:100%;width:100%;border:1px solid">');
