@@ -1,12 +1,12 @@
 .container-fluid{
-	border:solid;
 	height:auto;
+	background-color:url(233,235,238);
 }
 
 .container{
 	border:;
 	height:auto;
-	margin-left:10px;
+	
 }
 
 .coverPic{
