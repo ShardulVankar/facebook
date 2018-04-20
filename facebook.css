@@ -1,0 +1,39 @@
+.container-fluid{
+	border:solid;
+	height:auto;
+}
+
+.container{
+	border:;
+	height:auto;
+	margin-left:10px;
+}
+
+.coverPic{
+	
+	height:400px;
+	/* margin-left:100px;
+	margin-right:100px; */
+}
+
+ .profilePic{
+	
+	height:200px;
+	
+	 margin:-150px 750px 0px 20px; /*top right bottom left*/
+} 
+
+.about{
+	font-size:1.5rem;
+	border:solid;
+}
+
+.album{
+	font-size:1.5rem;
+	border:solid;
+}
+
+.albumPics > img:hover{
+	height:200px;
+	width:200px;
+}
